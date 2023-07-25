@@ -1,4 +1,4 @@
-let borderColors = ['#6cf', '#c9f', '#9ff', '#f90', '#ff0', '#c9f', '#f69']
+let borderColors = ['#6cf', '#c9f', '#9ff', '#f90', '#ff0', '#c9f', '#f69','#6cf', '#c9f', '#9ff', '#f90', '#ff0',]
 let menuItem = document.querySelectorAll('ul.menu>li>a')
 console.log(menuItem);
 
