@@ -88,7 +88,7 @@ ul.menu li a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0,140,204,0.3);
   z-index: 999;
   display: flex;
   align-items: center;
@@ -101,6 +101,7 @@ ul.menu li a:hover {
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
+  backdrop-filter: saturate(180%) blur(20px);
 }
 .search_overlay.active {
   opacity: 1;
